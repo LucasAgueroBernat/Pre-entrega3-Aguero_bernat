@@ -28,7 +28,7 @@ html{
 }*/
 
 body{
-   background-image: url(../images/huellita\ transparente.png);
+   background-image: url(../images/huellita_transparente.png);
    content: "";
    opacity: 0,3;
    position: absolute;
