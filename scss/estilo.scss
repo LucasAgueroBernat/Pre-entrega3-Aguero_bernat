@@ -1,0 +1,119 @@
+@use'./estilos-index';
+@use'./footer';
+*{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ html{
+    font-size: 62.5;
+ }
+ 
+ 
+ img {
+    max-width: 100%;
+    height: auto;
+  }
+   
+   
+ 
+ /* logo de whatsapp */
+ 
+ .logo_wsp{
+    height: 100%;
+    width: 100%;
+ }
+ 
+ .logo-wsp{
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    bottom:20px;
+    right: 20px;
+    }
+ 
+
+ .contenedor{
+    width:100%
+ }
+  
+ header{
+    background-color:#367E6E;
+     margin: 5px;
+ }
+
+ 
+ /*tienda*/
+ 
+ .parrafo-tienda{
+   background-color: #367E6E;
+   margin: 5px;
+   padding: 5px;
+ 
+ }
+ 
+ /*turnos*/
+ 
+ .titulo-turnos{
+    text-align: center;
+    padding: 5px;
+    background-color: #0d2033;
+    color: #FFFFFF;
+ }
+    
+  .image-turnos{
+    width: 100%;
+    height: 100%;
+  } 
+ 
+  .img-turnos{
+    width: 50%;
+    height: auto;
+    margin: 5px;
+  }
+  /*cursos*/
+ 
+  .section-cursos{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .section-cursos img{
+    width: 100%;
+    height: auto;
+  }
+  .section-cursos p{
+    background-color: #367E6E;
+  }
+ 
+  /*sobrenosotros*/
+ 
+  .section-sobreNosotros{
+    width: 30rem;
+    height: auto;
+    margin: 20%;
+  }
+ .texto-sobreNosotros{
+    background-color: #367E6E;
+    text-align: center;
+    margin: 10%;
+    padding: 10px;
+ 
+ }
+ 
+ .formulario-de-contacto{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #367E6E;
+    color: #fff;
+ }
+ .section-sobreNosotros {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .section-sobreNosotros img {
+   width: 320px;
+ }
