@@ -1,0 +1,31 @@
+@use'./reset';
+@use'./header';
+@use'./footer';
+
+$colorbase1: #367E6E;
+$color: white;
+$margin5: 5px;
+
+.main-tienda{
+  background-color: $colorbase1;
+  margin: $margin5;
+  padding: 5px;
+
+}
+
+.tienda-titulo{
+    background-color:$colorbase1;
+    margin: $margin5;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .parrafo-tienda{
+    background-color: $colorbase1;
+    padding: 5px;
+
+
+  }

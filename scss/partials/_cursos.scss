@@ -1,0 +1,44 @@
+@use'./reset';
+@use'./header';
+@use'./footer';
+
+$colorbase1: #367E6E;
+$color: white;
+$margin5: 5px;
+
+img{
+    width: 100%;
+    height: auto;
+        }
+            
+.articulo_1{
+    h2{
+        background-color: $colorbase1;
+    }
+    h3{
+        background-color: $colorbase1;
+    }
+    h4{
+        background-color: $colorbase1;
+    }
+}
+    
+.section-cursos{
+        background-color: $colorbase1;
+        align-content: center;
+        justify-content: center;
+        text-align: center; 
+        margin-top:$margin5;
+        margin-bottom: 10px;
+        margin-left: 40px;
+        margin-right: 40px;
+                p{
+                    background-color: $colorbase1; 
+                }
+            }
+
+
+
+  
+  
+   
