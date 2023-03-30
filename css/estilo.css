@@ -1,11 +1,476 @@
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 21 \2502      background-color:$colorbase1;\d\a    \2502                       ^^^^^^^^^^^\a    \2575 \a   scss\\_index.scss 21:22  @use\a   scss\\estilo.scss 2:1    root stylesheet";
+* {
+  margin: 0;
+  padding: 0;
 }
+
+html {
+  font-size: 62.5;
+}
+
+.contenedor {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: #367E6E;
+  width: 100%;
+  margin: 0px;
+}
+
+.pie-pagina {
+  width: 100%;
+  clear: both;
+  float: left;
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #367E6E;
+}
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 img {
+  width: 250px;
+}
+.pie-pagina .grupo-1 h2 {
+  color: #FFFFFF;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-pagina .grupo-1 p {
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #0d2033;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover {
+  color: aqua;
+}
+.pie-pagina .grupo2 {
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+.pie-pagina .grupo2 small {
+  font-size: 15px;
+}
+
+.logo_wsp {
+  height: 100%;
+  width: 100%;
+}
+
+.logo-wsp {
+  height: 80px;
+  width: 80px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.contenedor {
+  width: 100%;
+}
+
+body {
+  background-image: url(../images/huellita_transparente.png);
+  content: "";
+  opacity: 0, 3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+body .subtitulos-index {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #1B1B1E;
+  margin: 0;
+  padding: 5px;
+}
+body .parrafos-index {
+  color: white;
+  font-size: medium;
+  background-color: #1B1B1E;
+  padding: 5px;
+}
+
+main {
+  width: 100%;
+}
+main main img {
+  width: 100%;
+  height: auto;
+}
+main .img-index {
+  width: 45rem;
+  height: 32rem;
+  margin-top: 5px;
+}
+
+aside {
+  width: 70%;
+  padding: 20px;
+  float: left;
+  box-sizing: border-box;
+}
+aside form {
+  margin: 0 auto;
+  max-width: 600px;
+}
+aside input[type=text],
+aside input[type=number],
+aside select,
+aside textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+aside select {
+  height: 40px;
+}
+aside textarea {
+  height: 120px;
+}
+aside input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+aside input[type=submit]:hover {
+  background-color: #3e8e41;
+}
+aside form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+aside label {
+  display: block;
+  margin-bottom: 10px;
+  background-color: #1B1B1E;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: auto;
+}
+aside input[type=text],
+aside input[type=number],
+aside select,
+aside textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+article {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+article h2 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  background-color: #1B1B1E;
+  margin-top: 4px;
+  color: white;
+}
+article iframe {
+  width: 100%;
+  height: auto;
+}
+article iframe .form-map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tienda-titulo {
+  width: 100%;
+  height: auto;
+  background-color: #367E6E;
+  margin-top: 5px;
+  margin-right: 80%;
+  margin-left: 55%;
+  padding: 5px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.img-turnos {
+  width: 50%;
+  height: auto;
+  margin: 20px;
+}
+
+.titulo-turnos {
+  text-align: center;
+  padding: 5px;
+  background-color: #0d2033;
+  color: white;
+}
+
+aside {
+  width: 50%;
+  padding: 20px;
+  float: initial;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-left: 25%;
+  margin-right: 60%;
+  margin-bottom: 10px;
+}
+aside form {
+  margin: 0 auto;
+  max-width: 600px;
+}
+aside input[type=text],
+aside input[type=number],
+aside select,
+aside textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+aside select {
+  height: 40px;
+}
+aside textarea {
+  height: 120px;
+}
+aside input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+aside input[type=submit]:hover {
+  background-color: #3e8e41;
+}
+aside form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+aside label {
+  display: block;
+  margin-bottom: 10px;
+  background-color: #1B1B1E;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: auto;
+}
+aside input[type=text],
+aside input[type=number],
+aside select,
+aside textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+main h1 {
+  width: 50%;
+  height: auto;
+  background-color: #367E6E;
+  margin-top: 5px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main article img {
+  width: 40%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 0%;
+  margin-left: 30%;
+  margin-right: 20%;
+}
+main article h2 {
+  width: 40%;
+  height: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 30%;
+  margin-right: 20%;
+  padding: 5px;
+  background-color: darkslategray;
+  color: white;
+}
+main article h3 {
+  width: 40%;
+  height: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 30%;
+  margin-right: 20%;
+  padding: 5px;
+  background-color: darkslategray;
+  color: white;
+}
+main article h4 {
+  width: 40%;
+  height: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 30%;
+  margin-right: 20%;
+  padding: 5px;
+  background-color: darkslategray;
+  color: white;
+}
+main article p {
+  width: 40%;
+  height: auto;
+  margin-top: 0%;
+  margin-left: 30%;
+  margin-right: 20%;
+  padding: 5px;
+  background-color: darkslategray;
+  color: white;
+}
+main article button {
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 40%;
+  margin-right: 20%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+main article button:hover {
+  background-color: #3e8e41;
+}
+
+main {
+  width: 50%;
+  height: auto;
+}
+
+section h2 {
+  width: 50%;
+  height: auto;
+  background-color: #367E6E;
+  margin-top: 5px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 0%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section p {
+  width: 50%;
+  height: auto;
+  background-color: #367E6E;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario-de-contacto {
+  background-color: #367E6E;
+  width: 50%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  border: solid;
+}
+.formulario-de-contacto .botom {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.formulario-de-contacto .botom:hover {
+  background-color: #3e8e41;
+}
+
+body {
+  background-image: url(../images/huellita_transparente.png);
+  content: "";
+  opacity: 0, 3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,90 +1,21 @@
-@use'./estilos-index';
-@use'./sobrenosotros';
-@use'./footer';
-*{
-    margin: 0;
-    padding: 0;
- }
- 
- html{
-    font-size: 62.5;
- }
- 
- 
- img {
-    max-width: 100%;
-    height: auto;
-  }
-   
-   
- 
- /* logo de whatsapp */
- 
- .logo_wsp{
-    height: 100%;
-    width: 100%;
- }
- 
- .logo-wsp{
-    height: 80px;
-    width: 80px;
-    position: fixed;
-    bottom:20px;
-    right: 20px;
-    }
- 
-
- .contenedor{
-    width:100%
- }
-  
- header{
-    background-color:#367E6E;
-     margin: 5px;
- }
-
- 
- /*tienda*/
- 
- .parrafo-tienda{
-   background-color: #367E6E;
-   margin: 5px;
-   padding: 5px;
- 
- }
- 
- /*turnos*/
- 
- .titulo-turnos{
-    text-align: center;
-    padding: 5px;
-    background-color: #0d2033;
-    color: #FFFFFF;
- }
+//body{background-color: url(../images/huellita\ transparente.png);
+@use'./partials/reset'; 
+@use'./partials/header';
+@use'./partials/index';
+@use'./partials/tienda';
+@use'./partials/turnos';
+@use'./partials/cursos';
+@use'./partials/sobrenosotros';
+@use'./partials/footer';
+body{
+    background-image: url(../images/huellita_transparente.png);
+    content: "";
+    opacity: 0,3;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
     
-  .image-turnos{
-    width: 100%;
-    height: 100%;
-  } 
- 
-  .img-turnos{
-    width: 50%;
-    height: auto;
-    margin: 5px;
-  }
-  /*cursos*/
- 
-  .section-cursos{
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-  }
-  .section-cursos img{
-    width: 100%;
-    height: auto;
-  }
-  .section-cursos p{
-    background-color: #367E6E;
-  }
- 
- 

@@ -1,27 +1,73 @@
- .section-sobreNosotros{
-    width: 30rem;
+@use'./reset';
+@use'./header';
+@use'./footer';
+
+
+$colorbase1: #367E6E;
+$color: white;
+$margin5: 5px;
+
+
+main{
+    width: 50%;
     height: auto;
-    margin: 20%;
+}
+section{
+    h2{
+        width: 50%;
+        height: auto;
+        background-color:$colorbase1;
+        margin-top:$margin5;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 0%;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    p{
+        width: 50%;
+        height: auto;
+        background-color:$colorbase1;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.formulario-de-contacto{
+    background-color:$colorbase1;
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 5px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-  
-    .texto-sobreNosotros{
-        background-color: #367E6E;
-        text-align: center;
-        margin: 10%;
-        padding: 10px;
-    }
-    img {
-        width: 320px;
-        }
-    }
- 
- .formulario-de-contacto{
+    justify-content: center;
     align-content: center;
-    align-items: center;
-    justify-content: center;
-    background-color: #367E6E;
-    color: #fff;
- }
-  
+    gap: 20px;
+    border: solid;
+
+    .botom{
+        background-color: #4CAF50;
+        color:$color;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+        
+            &:hover {
+                background-color: #3e8e41;
+            } 
+
+    }
+
+}

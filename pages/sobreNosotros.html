@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PinkyPerruqueria</title>
+    <meta name="description" content="pagina de contacto y conocernos">
+    <meta name="keywords" content="sobrenos,conocenos,contactos,peluqueriacanina,groomers">
+    <title>PinkyPerruqueria/SobreNos</title>
     <!--favicon-->
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon_io (1)/favicon-16x16.png">
     <script src="https://kit.fontawesome.com/166b5ad5d1.js" crossorigin="anonymous"></script>
@@ -48,17 +50,43 @@
     </nav>
   </header>
  <main>
-    <section class="section-sobreNosotros">
-      <img src="../images/los_tres_chiflados.jpg" alt="tres-perritos-graciosos">
-    </section>
-    <section class="texto-sobreNosotros">
-      <h2>Sobre Nosotros</h2>
-      <p>Somos un equipo de profesionales con una gran pasion por perros y su bienestar. Ofrecemos servicios de peluqueria y veterinaria,
-        ademas contamos con una tienda con una amplia variedad de accesorios y productos para mimarlos.
-        11 años de experiencia nos avalan.
-      </p>
-    </section>
-  </main>
+  <article class="col-sm-12 col-md-6 col-lg-8">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/kaiser.jpg" class="d-block w-100" alt="cliente-keiser">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/leon.jpg" class="d-block w-100" alt="cliente.leon">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/dogo.jpg" class="d-block w-100" alt="clienta-umma">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/los_tres_chiflados.jpg" class="d-block w-100" alt="tres-clientes-felices">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/WhatsApp Image 2023-02-03 at 18.45.21.jpeg" class="d-block w-100" alt="cliente.richi">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </article>
+</main>
+  <section class="texto-sobreNosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos un equipo de profesionales con una gran pasion por perros y su bienestar. Ofrecemos servicios de peluqueria y veterinaria,
+      ademas contamos con una tienda con una amplia variedad de accesorios y productos para mimarlos.
+      11 años de experiencia nos avalan.
+    </p>
+  </section>
   <form class="formulario-de-contacto">
     <h2>Formulario de Contacto</h2>
     <p>Por favor, rellene los siguientes campos para enviarnos su consulta.</p>
@@ -78,10 +106,9 @@
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" required>
     </div>
-    <button type="submit">Enviar</button>
+    <button type="submit" class="botom">Enviar</button>
   </form>
-
-  <footer class="pie-pagina">
+<footer class="pie-pagina">
     <div class="grupo-1">
       <div class="box">
         <figure>

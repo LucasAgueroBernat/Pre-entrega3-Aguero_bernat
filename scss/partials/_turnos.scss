@@ -6,6 +6,12 @@ $colorbase1: #367E6E;
 $color: white;
 $margin5: 5px;
 
+.img-turnos{
+   width: 50%;
+   height: auto;
+   margin: 20px;
+
+}
 .titulo-turnos{
     text-align: center;
     padding: 5px;
@@ -14,11 +20,14 @@ $margin5: 5px;
 }
  
 aside{
-    width: 70%;
+    width: 50%;
     padding: 20px;
-    float: left;
+    float:initial;
     box-sizing: border-box;
-
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 60%;
+    margin-bottom: 10px;
        form {
             margin: 0 auto;
             max-width: 600px;

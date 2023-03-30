@@ -1,7 +1,29 @@
- /*body{
-    background-color: url(../images/huellita\ transparente.png);
- }*/
+//body{background-color: url(../images/huellita\ transparente.png);
+@use'./reset';
+@use'./header';
+@use'./footer';
+
+$colorbase1: #367E6E;
+$color: white;
+$margin5: 5px;
+
+.logo_wsp{
+    height: 100%;
+    width: 100%;
+}
+.logo-wsp{
+        height: 80px;
+        width: 80px;
+        position: fixed;
+        bottom:20px;
+        right: 20px;
+    }
  
+
+ .contenedor{
+    width:100%
+ }
+  
  body{
     background-image: url(../images/huellita_transparente.png);
     content: "";
@@ -14,14 +36,14 @@
     z-index: -1;
     
         .subtitulos-index{
-            color: #FFFFFF;
+            color: $color;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             background-color: #1B1B1E;
             margin: 0;
             padding: 5px;
             }
         .parrafos-index{
-            color: #FFFFFF;
+            color:$color;
             font-size: medium;
             background-color: #1B1B1E;
             padding: 5px;
@@ -68,13 +90,13 @@
                 height: 120px;
             }
             input[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 20px;
+                background-color: #4CAF50;
+                color:$color;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-top: 20px;
             
                 &:hover {
                     background-color: #3e8e41;
@@ -90,7 +112,7 @@
         display: block;
         margin-bottom: 10px;
         background-color:#1B1B1E ;
-        color: #FFFFFF;
+        color:$color;
         margin-top: 5px;
         margin-bottom: auto;
         }
@@ -106,7 +128,7 @@
  }
  
  article{
-    width: 30%;
+    width: 100%;
     padding: 20px;
     box-sizing: border-box;
     float: left;
@@ -117,11 +139,11 @@
         font-size: 20px;
         background-color:#1B1B1E;
         margin-top: 4px;
-        color: #FFFFFF;
+        color:$color;
     }
     iframe {
-        width: 12rem;
-        height: 15rem; 
+        width: 100%;
+        height: auto; 
         
         .form-map-container {
             display: flex;

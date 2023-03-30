@@ -10,32 +10,104 @@ img{
     width: 100%;
     height: auto;
         }
-            
-.articulo_1{
-    h2{
-        background-color: $colorbase1;
+               
+main{
+    h1{
+        width: 50%;
+        height: auto;
+        background-color:$colorbase1;
+        margin-top:$margin5;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    h3{
-        background-color: $colorbase1;
+
+    article{
+
+        img{
+            width: 40%;
+            height: auto;
+            margin-top: 10px;
+            margin-bottom: 0%;
+            margin-left: 30%;
+            margin-right: 20%;
+            }
+
+        h2{
+            width: 40%;
+            height: auto;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            margin-left: 30%;
+            margin-right: 20%;
+            padding: 5px;
+            background-color:darkslategray;
+            color: $color;
+        }
+
+        h3{
+            width: 40%;
+            height: auto;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            margin-left: 30%;
+            margin-right: 20%;
+            padding: 5px;
+            background-color:darkslategray;
+            color: $color;
+        }
+
+        h4{
+            width: 40%;
+            height: auto;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            margin-left: 30%;
+            margin-right: 20%;
+            padding: 5px;
+            background-color:darkslategray;
+            color: $color;
+        }
+
+        p{
+            width: 40%;
+            height: auto;
+            margin-top: 0%;
+            margin-left: 30%;
+            margin-right: 20%;
+            padding: 5px;
+            background-color:darkslategray;
+            color: $color;
+        }
+
+        button{
+            background-color: #4CAF50;
+            color:$color;
+            margin-top: 0%;
+            margin-bottom: 0%;
+            margin-left: 40%;
+            margin-right: 20%;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+        
+            &:hover {
+                background-color: #3e8e41;
+            } 
+        }
     }
-    h4{
-        background-color: $colorbase1;
-    }
+ 
 }
     
-.section-cursos{
-        background-color: $colorbase1;
-        align-content: center;
-        justify-content: center;
-        text-align: center; 
-        margin-top:$margin5;
-        margin-bottom: 10px;
-        margin-left: 40px;
-        margin-right: 40px;
-                p{
-                    background-color: $colorbase1; 
-                }
-            }
+
+
+
+
 
 
 
