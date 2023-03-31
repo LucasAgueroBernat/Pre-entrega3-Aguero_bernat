@@ -190,7 +190,7 @@ body {
   float: center;
 }
 
-.aside.turnos {
+.form-turnos {
   width: 50%;
   padding: 20px;
   float: center;
@@ -199,28 +199,29 @@ body {
   margin-left: 25%;
   margin-right: 60%;
   margin-bottom: 10px;
+  border: solid black;
 }
-.aside.turnos form {
+.form-turnos form {
   margin: 0 auto;
   max-width: 600px;
 }
-.aside.turnos input[type=text],
-.aside.turnos input[type=number],
-.aside.turnos select,
-.aside.turnos textarea {
+.form-turnos input[type=text],
+.form-turnos input[type=number],
+.form-turnos select,
+.form-turnos textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 100%;
   box-sizing: border-box;
 }
-.aside.turnos select {
+.form-turnos select {
   height: 40px;
 }
-.aside.turnos textarea {
+.form-turnos textarea {
   height: 120px;
 }
-.aside.turnos input[type=submit] {
+.form-turnos input[type=submit] {
   background-color: #4CAF50;
   color: white;
   padding: 10px 20px;
@@ -229,15 +230,15 @@ body {
   cursor: pointer;
   margin-top: 20px;
 }
-.aside.turnos input[type=submit]:hover {
+.form-turnos input[type=submit]:hover {
   background-color: #3e8e41;
 }
-.aside.turnos form {
+.form-turnos form {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
 }
-.aside.turnos label {
+.form-turnos label {
   display: block;
   margin-bottom: 10px;
   background-color: #1B1B1E;
@@ -245,10 +246,10 @@ body {
   margin-top: 5px;
   margin-bottom: auto;
 }
-.aside.turnos input[type=text],
-.aside.turnos input[type=number],
-.aside.turnos select,
-.aside.turnos textarea {
+.form-turnos input[type=text],
+.form-turnos input[type=number],
+.form-turnos select,
+.form-turnos textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
