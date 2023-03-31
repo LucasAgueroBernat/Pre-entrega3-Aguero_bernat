@@ -12,17 +12,20 @@ $margin5: 5px;
    margin: 20px;
 
 }
-.titulo-turnos{
+.main-turnos{
+    width: 100%;
+    height: auto;
     text-align: center;
     padding: 5px;
     background-color: #0d2033;
     color: $color;
+    float: center;
 }
  
-aside{
+.aside.turnos{
     width: 50%;
     padding: 20px;
-    float:initial;
+    float: center;
     box-sizing: border-box;
     margin-top: 20px;
     margin-left: 25%;

@@ -10,117 +10,128 @@
     <!--favicon-->
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon_io (1)/favicon-16x16.png">
     <script src="https://kit.fontawesome.com/166b5ad5d1.js" crossorigin="anonymous"></script>
+    <!-- Calendar :) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.es.min.js"></script>
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!--bootstrap-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!--css-->
     <link rel="stylesheet" href="./css/estilo.css">
 </head>
+
 <body>
-  <div class="row">
-    <div class="col">
-      <header>
-        <nav class="navbar navbar-expand-lg nav">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">PinkyPerruqueria</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./pages/tienda.html">Tienda</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link" href="./pages/turnos.html">Turnos</a>
-                </li>
-                <li class="nav-item">
-                  <a href="./pages/cursos.html" class="nav-link">Cursos</a>
-                </li>
-                <li class="nav-item">
-                  <a href="./pages/sobreNosotros.html" class="nav-link">Sobre Nosotros</a>
-                </li>
-              </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
-          </div>
+  <header>
+    <nav class="navbar navbar-expand-lg nav" class="col-3-md col-4-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">PinkyPerruqueria</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/tienda.html">Tienda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./pages/turnos.html" > Turnos</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/cursos.html" class="nav-link"> Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/sobreNosotros.html" class="nav-link"> Sobre Nosotros</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
         </div>
-      </nav>
-    </header>
-    </div>
-  </div>
-  <div class="row">
+      </div>
+    </nav>
+  </header>
     <div class="col">
       <div class="logo-wsp">
         <img src="https://th.bing.com/th/id/R.6456e096d6e7777092c008086bcc867c?rik=uSVGH6WS6xQ9Rg&pid=ImgRaw&r=0" alt="logo.whatsapp" class="logo_wsp">
-       </div>
+      </div>
+    </div>
+    <div class="fondo-transparente">
+        <div class="container pt-5">
+  <div class="row pt-5 pb-5">
+    <div class="col-md-6">
+      <h2>Los Mejores Groomers para tu Mejor Amigo</h2>
+      <p>Tenemos a los mejores, porque ellos se merecen lo mejor. El trato, el amor y paciencia son algunas de las cualidades que destacan a nuestro personal. Desde el 2014, trabajando dia a dia para darles lo mejor. Nuestra antigüedad y capacitacion nos hace ser mejores dia a dia.</p>
+    </div>
+    <div class="col-md-6 text-center">
+      <img src="./images/perritos-duchandose.webp" alt="perrito_duchandose" class="img-fluid">
     </div>
   </div>
-  <div class="row">
-    <div class="col">
-      <main>
-        <section class="container-fluid" class="section-index">
-          <div class="clearfix">
-            <img src="./images/perritos-duchandose.webp" class="col-md-6 float-md-end mb-3 ms-md-3" alt="perrito_duchandose">
-            <h2 class="subtitulos-index">
-              Los Mejores Groomers para tu Mejor Amigo.
-            </h2>
-            <p class="parrafos-index">
-              Tenemos a los mejores, porque ellos se merecen lo mejor. El trato, el amor y paciencia son algunas de las cualidades que destacan a nuestro personal.
-            Desde el 2014, trabajando dia a dia para darles lo mejor. Nuestra antigüedad y capacitacion nos hace ser mejores dia a dia.
-            </p>
-          <img src="./images/vet-dog.jpg" class="img-fluid" alt="perrito.doctor" class="img-index">
-            <h2 class="subtitulos-index">
-                  Los Mejores Profesionales Cuidando A tu Querido Amigo  .
-            </h2>
-            <p class="parrafos-index">
-              Selecionamos a los mas capacitados porque su salud y bienestar es nuestra prioridad.
-            </p>
-          </div>
-        </section>
-      </main>
+  </div>
+  <div class="container">
+    <div class="row pt-5 pb-5">
+      <div class="col-md-6 text-center">
+        <img src="./images/vet-dog.jpg" alt="perrito_doctor" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <h2>Los Mejores Profesionales cuidando a tu querido amigo</h2>
+        <p>Selecionamos a los mas capacitados porque su salud y bienestar es nuestra prioridad.</p>
+      </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col">
-      <aside>
-        <form>
-          <label for="nombre">Nombre del perro:</label>
-          <input type="text" id="nombre" name="nombre"><br>
-
-          <label for="raza">Raza del perro:</label>
-          <input type="text" id="raza" name="raza"><br>
-
-          <label for="edad">Edad del perro:</label>
-          <input type="number" id="edad" name="edad"><br>
-
-          <label for="servicio">Servicio:</label>
-            <select id="servicio" name="servicio">
-            <option value="corte">Corte de pelo</option>
-            <option value="baño">Baño y cepillado</option>
-            <option value="peluqueria">Peluquería completa</option>
-            </select><br>
-          <label for="fecha">Fecha y hora:</label>
-          <input type="datetime-local" id="fecha" name="fecha"><br>
-
-          <label for="comentarios">Comentarios adicionales:</label><br>
-          <textarea id="comentarios" name="comentarios"></textarea><br>
-
-          <input type="submit" value="Enviar">
-        </form>
-      </aside>
-      <article class="seccion-mapa">
-        <h2>Veni a visitarnos</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.7269524274247!2d-58.77579532563686!3d-34.68684018223802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc95ca4d1cc37b%3A0x310d00f7d5ed234a!2sPinky%20Perruqueria!5e0!3m2!1ses-419!2sar!4v1675310937985!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="form-map-container"></iframe>
-      </article>
+<div class="container">
+    <h2>Formulario de Contacto</h2>
+    <form class="col-md-8"> 
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Ingrese el nombre de su perrito">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="raza">Raza:</label>
+          <input type="text" class="form-control" id="raza" placeholder="Ingrese la raza de su perrito">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="edad">Edad:</label>
+          <input type="number" class="form-control" id="edad" placeholder="Ingrese la edad de su perrito">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="servicio">Servicio:</label>
+        <select class="form-control" id="servicio">
+          <option value="corte">Corte de pelo</option>
+          <option value="baño">Baño y cepillado</option>
+          <option value="peluqueria">Peluquería completa</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="fecha">Fecha:</label>
+        <input type="text" class="form-control" id="fecha" placeholder="Seleccione una fecha">
+      </div>
+      <div class="form-group">
+        <label for="comentarios">Comentarios Adicionales:</label>
+        <textarea class="form-control" id="comentarios" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Enviar</button>
+    </form>
+  </div>
+  <div class="container pt-5">
+    <div class="row pt-5 pb-5">
+    <h2>
+      Vení a Conocernos!
+    </h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d205.25065063430517!2d-58.38166955309759!3d-34.603898268171285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1sen!2sar!4v1680202711790!5m2!1sen!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
     </div>
   </div>
-  
+</body>
   <div class="row">
     <div class="col">
       <footer class="pie-pagina" class="footer mt-auto py-3 bg-light" >
@@ -135,7 +146,7 @@
         <div class="box">
           <h2>SOBRE NOSOTROS</h2>
           <p>
-            Democracia 503, Merlo, Buenos Aires,Argentina
+             Merlo, Buenos Aires,Argentina
           </p>
         </div>
         <div class="box">
@@ -152,6 +163,17 @@
     </footer>
     </div>
   </div>
+  <script src="https://kit.fontawesome.com/166b5ad5d1.js" crossorigin="anonymous"></script>
+
+  <script>
+    $('#fecha').datepicker({
+      language: "es",
+      autoclose: true,
+      todayHighlight: true,
+      format: "dd/mm/yyyy"
+    });
+  </script>
+
 <!--bootstrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>  
 </body>

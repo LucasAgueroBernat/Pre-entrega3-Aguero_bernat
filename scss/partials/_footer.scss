@@ -1,11 +1,19 @@
+$colorbase1: #367E6E;
+$color: white;
+$margin5: 5px;
+
 .pie-pagina{
-    width: 100%;
+    width: auto;
     clear: both;
     float: left;
     margin-top: 20px;
     box-sizing: border-box;
     padding: 20px;
-    background-color:#367E6E;
+    background-color:$colorbase1;
+    color: $color;
+    height: auto;
+    bottom: 0;
+}
 
     .grupo-1{
         width: 100%;
@@ -64,7 +72,7 @@
             font-size: 15px;
         }
     }
-}
+
  
  
  
