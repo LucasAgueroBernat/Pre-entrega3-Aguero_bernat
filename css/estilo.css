@@ -140,18 +140,18 @@ body {
 }
 
 .tienda-titulo {
-  width: 100%;
+  width: 50%;
   height: auto;
   background-color: white;
   margin-top: 5px;
-  margin-right: 80%;
-  margin-left: 55%;
   padding: 5px;
+  float: center;
+  margin-left: 70%;
+  margin-right: 55%;
+  margin-bottom: 0%;
   display: flex;
   align-items: center;
-  align-content: center;
   justify-content: center;
-  justify-items: center;
 }
 
 .body-tienda {
