@@ -2,41 +2,20 @@
 @use'./header';
 @use'./footer';
 
-$colorbase1: #367E6E;
-$color: white;
-$margin5: 5px;
 
-.tienda-titulo{
-    width: 50%;
-    height: auto;
-    background-color:$color;
-    margin-top:$margin5;
-    padding:5px;
-    float: center;
-    margin-left: 70%;
-    margin-right: 55%;
-    margin-bottom: 0%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container{
+
+    .card-deck{
+        display: grid;
+        gap: 15px;
+        margin-top: 10px;
+        bottom: 10px;
     }
-  
-  
-.body-tienda{
-    width: 100%;
-    height: auto;
-    margin-top:$margin5;
-    padding:5px;
-  }
 
-.tienda-productos{
-  margin-top: 20px;
-  gap: 20px;
-
-}
-.card-title{
-  background-color: $color;
-}
-.card-text{
-  background-color: $color;
+    .card{
+        display: grid;
+        gap: 15px;
+        margin-top: 10px;
+        bottom: 10px;
+    }
 }

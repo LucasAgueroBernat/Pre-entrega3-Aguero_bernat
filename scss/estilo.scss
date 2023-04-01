@@ -1,4 +1,3 @@
-//body{background-color: url(../images/huellita\ transparente.png);
 @use'./partials/reset'; 
 @use'./partials/header';
 @use'./partials/index';
@@ -7,6 +6,9 @@
 @use'./partials/cursos';
 @use'./partials/sobrenosotros';
 @use'./partials/footer';
+
+//body{background-color: url(../images/huellita\ transparente.png);
+
 body{
     background-image: url(../images/huellita_transparente.png);
     content: "";
